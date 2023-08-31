@@ -1,0 +1,140 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 700px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.firstContainer {
+  background-color: #1a171d;
+  width: 100vw;
+  border: solid 1px #1a171d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+@media (min-width: 700px) {
+  .firstContainer {
+    background-color: #1a171d;
+    width: 30vw;
+    border: solid 1px #1a171d;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+  }
+}
+.Head {
+  color: #f3aa4e;
+  font-family: 'roboto';
+  font-size: 24px;
+}
+@media (min-width: 700px) {
+  .Head {
+    color: #f3aa4e;
+    font-family: 'roboto';
+    font-size: 34px;
+  }
+}
+.labelContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+  margin-left: 36px;
+}
+.labelContainer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+label {
+  font-family: 'bree serif';
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+@media (min-width: 700px) {
+  label {
+    font-family: 'bree serif';
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+  }
+}
+input {
+  width: 240px;
+  height: 36px;
+  font-size: 10px;
+
+  outline: none;
+}
+.select {
+  width: 240px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+.button {
+  background-color: #f3aa4e;
+  height: 28px;
+  font-weight: 700;
+  color: white;
+  margin-top: 20px;
+  border: none;
+  width: 80px;
+  cursor: pointer;
+  border-radius: 04px;
+}
+.secondContainer {
+  background-color: #1a171d;
+  border: solid 1px #1a171d;
+  min-height: 100vh;
+  padding-left: 02px;
+}
+@media (min-width: 700px) {
+  .secondContainer {
+    background-color: #000000;
+    min-height: 100vh;
+    width: 70vw;
+    padding-left: 30px;
+  }
+}
+.SecHead {
+  font-family: 'bree serif';
+  font-size: 20px;
+  color: white;
+  margin: 10px;
+  margin-top: 60px;
+}
+@media (min-width: 700px) {
+  .SecHead {
+    font-family: 'bree serif';
+    font-size: 24px;
+    color: white;
+    margin: 10px;
+    margin-top: 60px;
+  }
+}
+.buttonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.heading {
+  font-family: 'bree serif';
+  font-size: 24px;
+  color: white;
+}
